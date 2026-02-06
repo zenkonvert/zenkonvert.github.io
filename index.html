@@ -1,52 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>PDF to JPG & JPG to PDF Converter – Free Online | Zenkonvert</title>
-
-<meta name="description" content="Free online PDF to JPG and JPG to PDF converter. Fast, secure, no upload required. Convert files instantly with Zenkonvert.">
-
-<meta name="keywords" content="pdf to jpg, jpg to pdf, convert pdf to jpeg, free pdf converter, image to pdf, pdf image converter, zenkonvert">
-
-<meta name="robots" content="index, follow">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<!-- Open Graph (for sharing preview) -->
-<meta property="og:title" content="Free PDF ↔ JPG Converter | Zenkonvert">
-<meta property="og:description" content="Convert PDF to JPG or JPG to PDF instantly. No upload. Free forever.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://zenkonvert.github.io">
-
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Converter</title>
+
+<title>Free PDF to JPG & JPG to PDF Converter – Zenkonvert</title>
+
+<meta name="description" content="Free online PDF to JPG and JPG to PDF converter. Fast, secure, no upload required. Convert files instantly with Zenkonvert.">
+<meta name="keywords" content="pdf to jpg, jpg to pdf, convert pdf to jpeg, image to pdf, free pdf converter, zenkonvert">
+<meta name="robots" content="index, follow">
+
+<link rel="icon" href="favicon.svg">
+
 <link rel="stylesheet" href="style.css" />
 </head>
 
 <body class="dark mode-jpg2pdf">
 
+<!-- Mode selector -->
 <select id="modeSelect" class="mode-select" onchange="switchMode()">
   <option value="jpg2pdf">JPG → PDF</option>
   <option value="pdf2jpg">PDF → JPG</option>
 </select>
 
+<!-- Theme button -->
 <button class="theme-toggle" onclick="toggleTheme()">🌙</button>
 
 <div class="container">
-  <h1 id="title">JPG → PDF</h1>
-  <h2>Free PDF to JPG and JPG to PDF Converter</h2>
-<p>
-Zenkonvert is a fast and free online tool to convert PDF to JPG images or combine JPG images into a PDF file.
-No file upload required. Works directly in your browser for privacy and speed.
-</p>
-
+  <h1>Zenkonvert</h1>
 
   <input type="file" id="fileInput" multiple />
   <div id="preview"></div>
 
   <button class="glow-btn ripple" onclick="handleConvert()">Generate</button>
 
-  <div class="progress-container"><div id="progressBar"></div></div>
+  <div class="progress-container">
+    <div id="progressBar"></div>
+  </div>
+
   <p id="status"></p>
+
+  <!-- SEO readable content -->
+  <h2>Free Online PDF to JPG and JPG to PDF Converter</h2>
+  <p>
+  Zenkonvert is a fast and free online tool that lets you convert PDF to JPG images
+  or combine JPG images into a single PDF file instantly. No file upload required —
+  everything runs directly in your browser for privacy and speed. Works on mobile and desktop.
+  </p>
 </div>
 
 <div id="toast"></div>
@@ -58,5 +58,3 @@ No file upload required. Works directly in your browser for privacy and speed.
 
 </body>
 </html>
-
-
