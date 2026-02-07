@@ -10,13 +10,31 @@
 <meta name="keywords" content="pdf to jpg, jpg to pdf, convert pdf to jpeg, image to pdf, free pdf converter, zenkonvert">
 <meta name="robots" content="index, follow">
 
+<!-- OpenGraph -->
+<meta property="og:title" content="Free PDF ↔ JPG Converter – Zenkonvert">
+<meta property="og:description" content="Convert PDF to JPG or JPG to PDF instantly. Free, fast, private.">
+<meta property="og:url" content="https://zenkonvert.github.io">
+<meta property="og:type" content="website">
+
+<!-- Structured Data -->
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "WebApplication",
+ "name": "Zenkonvert",
+ "url": "https://zenkonvert.github.io",
+ "applicationCategory": "Utilities",
+ "operatingSystem": "Any",
+ "description": "Free online PDF to JPG and JPG to PDF converter."
+}
+</script>
+
 <link rel="icon" href="favicon.svg">
-  
-<!-- AdSense verification -->
+
+<!-- AdSense -->
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2255448188069376"
 crossorigin="anonymous"></script>
-  
-  
+
 <!-- Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-WZHG89K4M1"></script>
 <script>
@@ -30,6 +48,16 @@ gtag('config', 'G-WZHG89K4M1');
 </head>
 
 <body class="dark mode-jpg2pdf">
+
+<!-- NAVIGATION -->
+<nav style="text-align:center;margin:10px 0;">
+<a href="index.html">Home</a> |
+<a href="pdf-to-jpg.html">PDF to JPG</a> |
+<a href="jpg-to-pdf.html">JPG to PDF</a> |
+<a href="about.html">About</a> |
+<a href="privacy.html">Privacy</a> |
+<a href="contact.html">Contact</a>
+</nav>
 
 <!-- Mode selector -->
 <select id="modeSelect" class="mode-select" onchange="switchMode()">
@@ -48,20 +76,44 @@ gtag('config', 'G-WZHG89K4M1');
 
   <button class="glow-btn ripple" onclick="handleConvert()">Generate</button>
 
+  <!-- AdSense Placeholder -->
+  <div style="margin:20px 0;text-align:center;">
+  <!-- Ads will appear here after approval -->
+  </div>
+
   <div class="progress-container">
     <div id="progressBar"></div>
   </div>
 
   <p id="status"></p>
 
-  <!-- SEO readable content -->
+  <!-- SEO CONTENT -->
   <h2>Free Online PDF to JPG and JPG to PDF Converter</h2>
   <p>
   Zenkonvert is a fast and free online converter that lets you convert PDF to JPG images
   or combine JPG images into a single PDF file instantly. No file upload required —
   everything runs directly in your browser for privacy and speed. Works on mobile and desktop.
   </p>
+
+  <h2>Why use Zenkonvert?</h2>
+  <ul>
+  <li>Free and unlimited conversions</li>
+  <li>No file upload — complete privacy</li>
+  <li>Fast in-browser processing</li>
+  <li>Supports multi-page PDF to image</li>
+  <li>Works on mobile and desktop</li>
+  </ul>
+
+  <h2>Supported conversions</h2>
+  <p>PDF to JPG, JPG to PDF, Image to PDF, PDF to JPEG online free.</p>
+
 </div>
+
+<!-- FOOTER -->
+<hr>
+<p style="text-align:center;font-size:13px;">
+© 2026 Zenkonvert. All rights reserved.
+</p>
 
 <div id="toast"></div>
 
@@ -70,14 +122,5 @@ gtag('config', 'G-WZHG89K4M1');
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
 <script src="script.js"></script>
 
-<hr>
-<p style="text-align:center;font-size:14px;">
-<a href="about.html">About</a> |
-<a href="privacy.html">Privacy</a> |
-<a href="contact.html">Contact</a>
-</p>
-  
 </body>
 </html>
-
-
